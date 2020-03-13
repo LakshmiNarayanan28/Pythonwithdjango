@@ -1,0 +1,21 @@
+GO to cmd
+C:/Users/elcot> python --version   //to check if py installed on ur computer
+C:/Users/elcot> pip --verison    //pip version
+
+If not Install python,after that---
+
+c:/users/elcot>pip install virtualenvwrapper-win
+Collecting virtualenvwrapper-win
+  Downloading https://files.pythonhosted.org/packages/d3/07/7599a80e13e58e0bb561ed03c55a2a84872b64ae50cbc40d9bf7ebabbdd9/virtualenvwrapper-win-1.2.6.tar.gz
+  .
+  .
+  .
+  Successfully installed appdirs-1.4.3 distlib-0.3.0 filelock-3.0.12 six-1.14.0 virtualenv-20.0.10 virtualenvwrapper-win-1.2.6
+  
+ C:\Users\elcot>mkvirtualenv test
+ 
+ (test) C:\Users\elcot>pip install django
+ Successfully installed asgiref-3.2.5 django-3.0.4 pytz-2019.3 sqlparse-0.3.1
+ 
+ (test) C:\Users\elcot>django-admin --version
+3.0.4
