@@ -19,3 +19,44 @@ Collecting virtualenvwrapper-win
  
  (test) C:\Users\elcot>django-admin --version
 3.0.4
+
+(test) C:\Users\elcot>mkdir projects
+
+(test) C:\Users\elcot>cd projects
+
+(test) C:\Users\elcot\projects>django-admin startproject lakshmi
+
+(test) C:\Users\elcot\projects>cd lakshmi
+
+(test) C:\Users\elcot\projects\lakshmi>dir
+ Volume in drive C is voiuim
+ Volume Serial Number is 7235-63EE
+
+ Directory of C:\Users\elcot\projects\lakshmi
+
+13-03-2020  10:46    <DIR>          .
+13-03-2020  10:46    <DIR>          ..
+13-03-2020  10:46    <DIR>          lakshmi
+13-03-2020  10:46               648 manage.py
+               1 File(s)            648 bytes
+               3 Dir(s)  11,700,613,120 bytes free
+
+(test) C:\Users\elcot\projects\lakshmi>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 13, 2020 - 10:49:18
+Django version 3.0.4, using settings 'lakshmi.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[13/Mar/2020 10:49:59] "GET / HTTP/1.1" 200 16351
+[13/Mar/2020 10:49:59] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[13/Mar/2020 10:49:59] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[13/Mar/2020 10:49:59] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[13/Mar/2020 10:49:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[13/Mar/2020 10:50:00] "GET /favicon.ico HTTP/1.1" 404 1973
